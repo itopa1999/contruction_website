@@ -2866,3 +2866,22 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+.btn-get-started {
+  color: var(--accent-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0;
+  border: 2px solid var(--accent-color);
+}
+
+.btn-get-started:hover {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
