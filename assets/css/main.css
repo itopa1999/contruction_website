@@ -1395,7 +1395,7 @@ section,
 .projects .portfolio-content .portfolio-info .preview-link,
 .projects .portfolio-content .portfolio-info .details-link {
   position: absolute;
-  left: calc(50% - 40px);
+  left: 45%;
   font-size: 26px;
   top: calc(50% - 14px);
   color: #fff;
@@ -2883,5 +2883,55 @@ section,
 
 .btn-get-started:hover {
   background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+
+.call-to-service {
+  padding: 60px 0;
+  background: var(--background-color);
+  text-align: center;
+}
+
+.call-to-service-card {
+  background: var(--surface-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transition: transform 0.3s ease;
+}
+
+.call-to-service-card:hover {
+  transform: translateY(-5px);
+}
+
+.call-to-service-card h2 {
+  color: var(--heading-color);
+  font-weight: 600;
+}
+
+.call-to-service-card p {
+  color: var(--default-color);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.call-to-service-card .btn-get-quote {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.call-to-service-card .btn-get-quote:hover {
+  background: #e0a800; /* Slightly darker shade */
   color: var(--contrast-color);
 }
